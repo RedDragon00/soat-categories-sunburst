@@ -1,0 +1,90 @@
+{
+ "name": "Website",
+ "children": [
+  {
+   "name": "Culture",
+   "children": [
+      { "name": "Actualités", "children": [
+	      { "name": "Evènement et sponsoring", "value": 500},
+	      { "name": "Prix / Certifications (Eco-vadis)", "value": 500}
+	    ]
+	  },
+      { "name": "Fun", "children": [
+	      { "name": "Communautés", "value": 500},
+	      { "name": "Locaux", "value": 500},
+	      { "name": "Soirées", "value": 500}
+	    ]
+	  },
+      { "name": "Profils", "children": [
+	      { "name": "Cartographie", "value": 500},
+	      { "name": "Rôles", "value": 500},
+	      { "name": "Paroles de Soatiens", "value": 500}
+	    ]
+	  },
+      { "name": "Expertise", "children": [
+	      { "name": "Conférences", "value": 500},
+	      { "name": "Livres blancs", "value": 500}
+	    ]
+	  },
+      { "name": "Compétences", "children": [
+	      { "name": "Capitalisation", "children": [ 
+	      		{ "name": "Blog", "value": 500},
+	      		{ "name": "RefCards", "value": 500},
+	      		{ "name": "Vidéos", "value": 500}
+			]
+		  },
+	      { "name": "Universités", "value": 500},
+	      { "name": "Bosster Camp", "value": 500},
+	      { "name": "Coaching technique", "value": 500},
+	      { "name": "Communautés", "value": 500}
+	    ]
+	  },
+      { "name": "Déontologie", "value": 500}
+	]
+   },{
+   "name": "Tech",
+   "children": [
+      { "name": "Dev", "children": [
+          { "name": "Mobile", "value": 500},
+          { "name": "Front", "value": 500},
+          { "name": "Backend", "children": [
+          		{ "name": "Dotnet", "children": [
+          			{ "name": "Certification MVP", "value": 500},
+		            { "name": "Microsoft Gold", "value": 500}
+					]
+				},
+	            { "name": "Java", "value": 500}
+			]
+		  },
+          { "name": "Cloud", "value": 500},
+          { "name": "Architecture", "value": 500},
+          { "name": "Cobol", "value": 500}
+        ]
+	  },
+      { "name": "Data", "children": [
+          { "name": "Data Engineering", "value": 500},
+          { "name": "Data Science", "value": 500}
+        ]
+	  },
+      { "name": "Agile", "children": [
+          { "name": "Coaching Agile", "value": 500},
+          { "name": "Scrum Mastering", "value": 500},
+          { "name": "Produit", "value": 500},
+          { "name": "Innovation", "value": 500}
+        ]
+	  },
+      { "name": "Mindset / Culture", "children": [
+          { "name": "Craft", "value": 500},
+          { "name": "DevOps", "value": 500},
+          { "name": "TDD", "value": 500}
+        ]
+	  },
+      { "name": "OpenSource", "children": [
+          { "name": "http://soat.github.io", "value": 500}
+        ]
+	  }
+    ]
+   }
+  ]
+}
+
