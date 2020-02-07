@@ -52,7 +52,7 @@ export default function define(runtime, observer) {
         .append("image")
           .attr("x", "65")
           .attr("y", "58")
-          .attr("xlink:href", "https://github.com/RedDragon00/sunburst-demo/blob/master/soat.png")
+          .attr("xlink:href", "https://github.com/RedDragon00/soat-categories-sunburst/blob/master/soat.png")
   const parent = g.append("circle")
       .datum(root)
       .attr("r", radius)
@@ -111,7 +111,7 @@ export default function define(runtime, observer) {
 }
 );
   main.variable(observer("data")).define("data", ["d3"], function(d3){return(
-d3.json("/sunburst-demo/kube.json")
+d3.json("/soat-categories-sunburst/categories.json")
 )});
   main.variable(observer("partition")).define("partition", ["d3"], function(d3){return(
 data => {
